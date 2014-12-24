@@ -1,0 +1,299 @@
+﻿/* _________________________________________________________________ */
+/* Acappella Information Systems 2009 - Master Cascading Style Sheet */
+
+/* _________________________________________________________________ */
+/* NOTES for Information Now                                         */
+
+/*                                                                   */
+/*                                                                   */
+/*                                                                   */
+/*                                                                   */
+/*                                                                   */
+/*                                                                   */
+
+
+/* _________________________________________________________________ */
+/* DEFAULT PAGE SETTINGS and SCROLLBAR                               */
+
+body {
+	background-repeat: repeat-x;
+	background-color: #c2a6a3;
+	font-family: "Trebuchet MS";
+	font-size: 11pt;
+	background-image: url('bg-image2.jpg');
+	margin-top: 14px;
+}
+
+
+/* _________________________________________________________________ */
+/* LINKS                                                             */
+
+a:link		{
+	font-size: 11pt;
+	font-family: Verdana;
+	line-height: 23px%;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: bold;
+}
+a:visited	{
+	font-size: 11pt;
+	font-family: Verdana;
+	line-height: 23px%;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: bold;
+}
+a:active	{
+	font-size: 11pt;
+	font-family: Verdana;
+	line-height: 23px%;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: bold;
+}
+a:hover		{
+	font-size: 11pt;
+	font-family: Verdana;
+	color: #8A0000;
+	text-decoration: underline;
+	text-transform: none;
+	font-weight: bold;
+}
+
+
+/* _________________________________________________________________ */
+/* MENU        	color: #E0C8A6;                                                      */
+
+.menu		{
+	font-size: 10pt;
+	font-family: Verdana;
+	font-variant: small-caps;
+	color: #E0C8A6;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: bold;
+}
+a:link.menu		{
+	font-size: 10pt;
+	font-family: Verdana;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: bold;
+}
+a:visited.menu	{
+	font-size: 10pt;
+	font-family: Verdana;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: bold;
+}
+a:active.menu	{
+	font-size: 10pt;
+	font-family: Verdana;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: bold;
+}
+a:hover.menu		{
+	font-size: 10pt;
+	font-family: Verdana;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: bold;
+}
+
+/* _________________________________________________________________ */
+/* TABLE and CONTENT FORMATTING                                      */
+
+.table-topheader {
+	text-align: center;
+	background-color: #E0C8A6;
+        font-family: "Trebuchet MS";
+	font-size: 11pt;
+	font-weight: bold;
+}
+.table-menubar-right {
+	text-align: right;
+	border-bottom-color: #0156BB;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	background-color: #333333;
+	color: #0156BB;
+}
+.table-menubar-left {
+	text-align: left;
+	border-bottom-color: #0156BB;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	font-family: Tahoma;
+	font-size: 8pt;
+	color: #FFFFFF;
+	font-variant: small-caps;
+	background-color: #333333;
+}
+.table-mainbody {
+	text-align: center;
+	background-color: #E0C8A6;
+}
+.table-pagefooter {
+	table-layout: inherit;
+	border-collapse: inherit;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #CCCCCC;
+	text-align: center;
+	background-color: #E0C8A6;
+	height: 16pt;
+}
+.table-sectonheader {
+	padding: 3px;
+	table-layout: inherit;
+	border-collapse: inherit;
+	font-family: Arial;
+	font-size: 11pt;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #004890;
+	height: 20pt;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+	font-size: 11pt;
+	color: #F1EEE7;
+	font-weight: bold;
+	text-indent: 10px;
+}
+.table-gray-pageheader {
+	background-color: #58585A;
+	text-align: right;
+	font-family: Tahoma;
+	font-size: 14pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #DCDA8D;
+	vertical-align: bottom;
+	letter-spacing: 1px;
+	height: 50px;
+}
+
+.cell-darkgray-font {
+	color: #666666;
+	text-align: justify;
+}
+.cell-justify {
+	text-align: justify;
+	vertical-align: top;
+	font-family: "Trebuchet MS";
+	font-size: 12pt;
+}
+.cell-center {
+	text-align: center;
+	background-color: #E0C8A6;
+	background-image: url('bandstand2.png');
+	vertical-align: top;
+}
+.cell-right {
+	text-align: right;
+}
+.cell-left {
+	text-align: left;
+}
+.cell-center-greenbg {
+	text-align: center;
+	background-color: #003300;
+	vertical-align: top;
+}
+.cell-bg-brushed-centre {
+	background-image: url('bg-brushed.gif');
+	background-repeat: repeat;
+	text-align: center;
+	vertical-align: top;
+}
+.cell-center-litegray-bg {
+	background-color: #CCCCCC;
+	text-align: center;
+}
+.border-beige-left {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF #B9A988 #FFFFFF #B9A988;
+	text-align: center;
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+
+
+/* _________________________________________________________________ */
+/* TEXT HEADERS                                                      */
+.border-beige-right {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF #B9A988 #FFFFFF #FFFFFF;
+	text-align: center;
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+
+.pic-noborder-thick {
+	border: 6px solid #FFFFFF;
+}
+
+.pic-noborder {
+	border-width: 0px;
+}
+.pic-border {
+	border: 1px solid #B9A988;
+}
+
+
+/* _________________________________________________________________ */
+/* CONTENT & MARGINS                                                 */
+.text-14pt-sm-caps {
+	font-size: 14pt;
+	font-weight: bold;
+	color: #000000;
+	font-family: Trebuchet MS;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-style: italic;
+	letter-spacing: 3px;
+}
+.text-10pt-green {
+	font-size: 10pt;
+	font-weight: normal;
+	color: #5F4116;
+	font-family: Trebuchet MS;
+	text-decoration: none;
+}
+
+.left-margin-10px {
+	margin-left: 10px;
+}
+
+.left-margin-80px {
+	margin-left: 80px;
+}
+
+
+/* _________________________________________________________________ */
+/* HORIZONTAL LINES                                                  */
+
+.horiz-line-blue {
+	color: #004890;
+	text-align: center;
+	width: 95%;
+	height: 1px;
+}
